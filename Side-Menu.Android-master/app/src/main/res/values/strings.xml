@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Enjoy your drink!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_speaking_main">speaking_main</string>
+    <string name="title_activity_drink_menu">DrinkMenu</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_user_info">UserInfo</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/main222">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/list_view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <yalantis.com.sidemenu.sample.FancyButton
+            android:id="@+id/repertory"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="60dp"
+            android:onClick="change1"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            fancy:fb_borderColor="#9b0b0d"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#9b0b0d"
+            fancy:fb_focusColor="#f15aa8"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text=" Sale " />
+
+
+        <yalantis.com.sidemenu.sample.FancyButton
+            android:id="@+id/repertory2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="60dp"
+            android:onClick="change2"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            fancy:fb_borderColor="#9b0b0d"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#fcf6f6"
+            fancy:fb_focusColor="#f15aa8"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text=" Rest "
+            fancy:fb_textColor="#9b0b0d" />
+
+        <yalantis.com.sidemenu.sample.FancyButton
+            android:id="@+id/repertory3"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="60dp"
+            android:onClick="add"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            fancy:fb_borderColor="#9b0b0d"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#9b0b0d"
+            fancy:fb_focusColor="#f15aa8"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text=" Add " />
+
+    </LinearLayout>
+        <ListView
+          android:id="@+id/list_view3"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="100dp" />
+</android.support.constraint.ConstraintLayout>

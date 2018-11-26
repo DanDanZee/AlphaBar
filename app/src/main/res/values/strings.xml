@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Enjoy your drink!</string>
+    <string name="action_login">Stop Music</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_speaking_main">speaking_main</string>
+    <string name="title_activity_drink_menu">DrinkMenu</string>
+    <string name="title_activity_guide">Guide</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_user_info">UserInfo</string>
+    <string name="textlogin_id">Administrator Account</string>
+    <string name="textlogin_pwd">Password</string>
+    <string name="text_loginbutton">Login</string>
+    <string name="text_registerbutton">Register</string>
+    <string name="textlogin_repeatpwd">Repeat Password</string>
+    <string name="get_msg">get message</string>
+
+
+
+
+
+</resources>

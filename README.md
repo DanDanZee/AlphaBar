@@ -28,7 +28,7 @@ Home page and menu
 
 DIY
 ---
-<img src="https://github.com/DanDanZee/AlphaBar/raw/master/img/主页_自定义点单界面.jpg" height="375" >
+<img src="https://github.com/DanDanZee/AlphaBar/raw/master/img/主页_自定义点单界面.jpg" height="500" >
 
 
 Automatic Recommendation By Mood Judgment through Speech Control
